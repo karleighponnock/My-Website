@@ -5,17 +5,19 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav>
-      <Link to="/paint/">
+    <ul class= "nav">
+   
+      <Link className="link" to="/paint/">
         PAINTINGS
         </Link>
-      <Link to="/tatu/">
+      <Link className="link" to="/tatu/">
           TATU
         </Link>
-      <Link to="/music/">
+      <Link className="link" to="/music/">
           MUSIC
         </Link>
-    </nav>
+  
+    </ul>
   );
 }
 
