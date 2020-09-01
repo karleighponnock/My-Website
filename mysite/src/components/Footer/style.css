@@ -1,0 +1,25 @@
+.footer {
+  min-height: 7%;
+  background-color: rgba(0, 0, 0, 0.644);
+  position: relative;
+  box-shadow: 0 0 40px red;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: #00000083;
+}
+
+.sites{
+  float: left;
+}
+
+.email{}
